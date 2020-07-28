@@ -1,7 +1,7 @@
 import random
 entrant = int(input('参加者は何名ですか？：'))
 humans = {1:'you'}
-# 辞書の追加と参加人数が合うようにする
+# 辞書の追加と参加人数の合致
 humans[1] = str(input('あなたの名前：'))
 x = 2
 while  x <= entrant:
